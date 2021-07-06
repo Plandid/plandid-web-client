@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "git config core.hooksPath ./githooks/",
+    "test": "exit 0"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -14,6 +16,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@plandid/node-scripts": "^1.2.13",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1"
   }
