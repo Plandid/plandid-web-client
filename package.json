@@ -7,16 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "git config core.hooksPath ./githooks/",
     "test": "exit 0"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@plandid/node-scripts": "^1.2.13",
+    "commit-testing": "^1.4.0",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1"
   }
